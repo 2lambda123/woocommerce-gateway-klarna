@@ -2,9 +2,354 @@ repo_name: 2lambda123/woocommerce-gateway-klarna
 report_id: fc4b8c60a5a1faf820ac6686f718786a
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-09T06:54:09+00:00'
+timestamp: '2024-02-29T19:18:58+00:00'
 requested_by: NiklasHogefjord
 provider: github
 branch: master
-detected_tools_count: 0
-tools: []
+detected_tools_count: 28
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/vendor/guzzlehttp/ringphp/docs/requirements.txt
+  detection_source: vendor/guzzlehttp/ringphp/docs/requirements.txt
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2015-09-29 13:21:23.000000000 Z
+- name: Guzzle
+  description: PHP HTTP client that makes it easy to send HTTP requests and trivial
+    to integrate with web services
+  website_url: http://guzzlephp.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/2350/638632.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/vendor/guzzlehttp/guzzle/composer.json
+  detection_source: vendor/guzzlehttp/guzzle/composer.json
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2015-09-29 13:21:23.000000000 Z
+- name: Code Climate
+  description: Automated Ruby Code Review
+  website_url: https://codeclimate.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/305/KFgYaUkK.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/vendor/phpxmlrpc/phpxmlrpc/composer.json
+  detection_source: vendor/phpxmlrpc/phpxmlrpc/composer.json
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2017-09-20 12:44:31.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna
+  detection_source: Repo Metadata
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/vendor/guzzlehttp/guzzle/composer.json
+  detection_source: vendor/guzzlehttp/guzzle/composer.json
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2015-05-07 13:35:50.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/vendor/guzzlehttp/ringphp/docs/requirements.txt
+  detection_source: vendor/guzzlehttp/ringphp/docs/requirements.txt
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2015-09-29 13:21:23.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/vendor/guzzlehttp/guzzle/.travis.yml
+  detection_source: vendor/guzzlehttp/guzzle/.travis.yml
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2015-05-07 13:35:50.000000000 Z
+- name: apigen/apigen
+  description: PHP source code API generator
+  package_url: https://packagist.org/apigen/apigen
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/vendor/klarna/kco_rest/composer.json
+  detection_source: vendor/klarna/kco_rest/composer.json
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2015-09-29 13:21:23.000000000 Z
+- name: codeclimate/php-test-reporter
+  description: PHP client for reporting test coverage to Code Climate
+  package_url: https://packagist.org/codeclimate/php-test-reporter
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/vendor/phpxmlrpc/phpxmlrpc/composer.json
+  detection_source: vendor/phpxmlrpc/phpxmlrpc/composer.json
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2017-09-20 12:44:31.000000000 Z
+- name: guzzlehttp/guzzle
+  description: Guzzle is a PHP HTTP client library
+  package_url: https://packagist.org/guzzlehttp/guzzle
+  version: 5.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/composer.lock
+  detection_source: vendor/guzzlehttp/guzzle/composer.json
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2015-09-29 13:21:23.000000000 Z
+- name: guzzlehttp/ringphp
+  description: Provides a simple API and specification that abstracts away the details
+    of HTTP into a single PHP function
+  package_url: https://packagist.org/guzzlehttp/ringphp
+  version: 1.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/composer.lock
+  detection_source: vendor/guzzlehttp/guzzle/composer.json
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2015-09-29 13:21:23.000000000 Z
+- name: guzzlehttp/streams
+  description: Provides a simple abstraction over streams of data
+  package_url: https://packagist.org/guzzlehttp/streams
+  version: 3.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/composer.lock
+  detection_source: vendor/guzzlehttp/ringphp/composer.json
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2015-09-29 13:21:23.000000000 Z
+- name: klarna/checkout
+  description: Wrapper for the Klarna Checkout API
+  package_url: https://packagist.org/klarna/checkout
+  version: 4.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Michael Bengtsson
+  last_updated_on: 2018-02-12 09:04:18.000000000 Z
+- name: klarna/kco_rest
+  description: Official Klarna REST PHP SDK
+  package_url: https://packagist.org/klarna/kco_rest
+  version: 2.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Michael Bengtsson
+  last_updated_on: 2018-02-12 09:04:18.000000000 Z
+- name: phploc/phploc
+  description: A tool for quickly measuring the size of a PHP project
+  package_url: https://packagist.org/phploc/phploc
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/vendor/klarna/kco_rest/composer.json
+  detection_source: vendor/klarna/kco_rest/composer.json
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2015-09-29 13:21:23.000000000 Z
+- name: phpmd/phpmd
+  description: PHPMD is a spin-off project of PHP Depend and aims to be a PHP equivalent
+    of the well known Java tool PMD
+  package_url: https://packagist.org/phpmd/phpmd
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/vendor/klarna/checkout/composer.json
+  detection_source: vendor/klarna/checkout/composer.json
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2015-09-29 13:21:23.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/vendor/guzzlehttp/guzzle/composer.json
+  detection_source: vendor/guzzlehttp/guzzle/composer.json
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2015-09-29 13:21:23.000000000 Z
+- name: phpunit/phpunit-selenium
+  description: Selenium Server integration for PHPUnit
+  package_url: https://packagist.org/phpunit/phpunit-selenium
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/vendor/phpxmlrpc/phpxmlrpc/composer.json
+  detection_source: vendor/phpxmlrpc/phpxmlrpc/composer.json
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2017-09-20 12:44:31.000000000 Z
+- name: phpxmlrpc/phpxmlrpc
+  description: A php library for building xmlrpc clients and servers
+  package_url: https://packagist.org/phpxmlrpc/phpxmlrpc
+  version: 4.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/composer.lock
+  detection_source: vendor/klarna/php-xmlrpc/composer.json
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2017-09-20 12:44:31.000000000 Z
+- name: react/promise
+  description: A lightweight implementation of CommonJS Promises/A for PHP
+  package_url: https://packagist.org/react/promise
+  version: 2.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/composer.lock
+  detection_source: vendor/guzzlehttp/ringphp/composer.json
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2015-09-29 13:21:23.000000000 Z
+- name: sami/sami
+  description: Sami, an API documentation generator
+  package_url: https://packagist.org/sami/sami
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/vendor/phpxmlrpc/phpxmlrpc/composer.json
+  detection_source: vendor/phpxmlrpc/phpxmlrpc/composer.json
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2017-09-20 12:44:31.000000000 Z
+- name: satooshi/php-coveralls
+  description: PHP client library for Coveralls API
+  package_url: https://packagist.org/satooshi/php-coveralls
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/vendor/klarna/checkout/composer.json
+  detection_source: vendor/klarna/checkout/composer.json
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2015-09-29 13:21:23.000000000 Z
+- name: sebastian/phpcpd
+  description: Copy/Paste Detector
+  package_url: https://packagist.org/sebastian/phpcpd
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/vendor/klarna/kco_rest/composer.json
+  detection_source: vendor/klarna/kco_rest/composer.json
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2015-09-29 13:21:23.000000000 Z
+- name: squizlabs/php_codesniffer
+  description: PHP_CodeSniffer tokenizes PHP
+  package_url: https://packagist.org/squizlabs/php_codesniffer
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/vendor/klarna/checkout/composer.json
+  detection_source: vendor/klarna/checkout/composer.json
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2015-09-29 13:21:23.000000000 Z
+- name: sphinx_rtd_theme
+  description: Read the Docs theme for Sphinx
+  package_url: https://pypi.org/project/sphinx_rtd_theme
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20304/default_506725603cd9affb22ffa36e3939310b26cbf952.png
+  detection_source_url: https://github.com/2lambda123/woocommerce-gateway-klarna/blob/master/vendor/guzzlehttp/ringphp/docs/requirements.txt
+  detection_source: vendor/guzzlehttp/ringphp/docs/requirements.txt
+  last_updated_by: Slobodan Manic
+  last_updated_on: 2015-09-29 13:21:23.000000000 Z
